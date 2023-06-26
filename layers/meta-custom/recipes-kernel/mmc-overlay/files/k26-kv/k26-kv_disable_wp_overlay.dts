@@ -1,0 +1,6 @@
+// Example file that change device-tree specs
+
+&mmc0 {
+	 broken-cd;
+	 wp-inverted;
+};
