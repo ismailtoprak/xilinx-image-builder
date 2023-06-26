@@ -1,0 +1,11 @@
+*
+!builder/
+!builder/*
+!layers/
+!layers/*
+!*.yml
+!*.sh
+!*conf
+!README.md
+!.gitignore
+ 

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  builder:
+    build: ./builder
+    volumes:
+      - $HOME/.gitconfig:/home/yocto/.gitconfig:ro
+      - $HOME/.ssh:/home/yocto/.ssh
+      - $HOME/works/xilinx-image-builder/projects:/home/yocto/projects
+      - $HOME/works/xilinx-image-builder/layers:/home/yocto/layers
