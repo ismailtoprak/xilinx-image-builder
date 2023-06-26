@@ -3,6 +3,10 @@
  To build Petalinux Images of Xilinx FPGAs, will need a supported OS. 
  
  
+ ## References
+   - [Huseyin Kozan - Yocto Builder](https://github.com/huseyinkozan/toradex-docker-yocto-builder)
+   - [Xilinx Atlassian](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841862/Install+and+Build+with+Xilinx+Yocto)
+ 
  ## Requirements
 
  * GNU/Linux distro which have Docker support.
