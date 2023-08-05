@@ -22,6 +22,13 @@ RUN DEBIAN_FRONTEND=noninteractive \
    diffstat \ 
    file \ 
    g++ \ 
+   g++-multilib \
+   gcc-multilib \
+   git-core \
+   socat \
+   unzip \
+   texinfo \
+   python2 \
    gawk \ 
    lz4 \ 
    make \ 
