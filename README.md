@@ -6,6 +6,7 @@
  ## References
    - [Huseyin Kozan - Yocto Builder](https://github.com/huseyinkozan/toradex-docker-yocto-builder)
    - [Xilinx Atlassian](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841862/Install+and+Build+with+Xilinx+Yocto)
+   - [Avnet Yocto Meta User Demo](https://xterra2.avnet.com/yocto/yocto-meta-user-demo)
  
  ## Requirements
 
@@ -59,8 +60,11 @@ Then, you can use `bitbake`. For example;
 
 ## Customizations
    - debug-tweaks feature set as enabled for root login without password.
+   - cpuidle.off=1 added to kernel bootargs
+   - fpga-manager disabled
 
 ## Known Bugs
-   - rootfs load as Read-Only file system.
-   - mmc device-tree overlay does not work as desired.
+   - None
 
+## Warnings
+   - User has to copy generated bit file to sdcard boot partition then load it ```fpga load``` commad. For more information follow ```Test Procedure``` section of [Xilinx Atlassian Wiki](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/124682257/U-Boot+FPGA+Driver)
